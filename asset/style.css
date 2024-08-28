@@ -1,38 +1,46 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  padding-inline: 3rem;
-}
-
-main {
-  padding: 2rem;
+  padding-inline: 5rem;
+  background-color: #f1e8de;
 }
 
 form {
-  background-color: aqua;
+  color: white;
+  background-color: #4646b9;
   padding: 1rem;
-  margin: 1rem;
+  margin-block: 1rem;
+}
+form input,
+label {
+  font-size: 1.3rem;
+  padding-right: 1rem;
 }
 main div {
   padding: 1rem;
-  background-color: aquamarine;
+  background-color: #b7b7dd;
   font-size: 1.3rem;
 }
+
 li {
   margin-right: 1rem;
   list-style: none;
+  border-top: solid;
 }
 
 button {
   background-color: orangered;
   color: white;
-  width: 25%;
+  font-size: 1.3rem;
+  width: 10%;
 }
 
 ul button {
   background-color: red;
   color: white;
   width: 20%;
+  border: solid;
+  margin-bottom: 1rem;
 }
 .complete {
   text-decoration: line-through;
