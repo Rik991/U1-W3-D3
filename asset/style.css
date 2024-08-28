@@ -23,9 +23,10 @@ main div {
 }
 
 li {
-  margin-right: 1rem;
+  padding-top: 1rem;
   list-style: none;
   border-top: solid;
+  font-weight: 700;
 }
 
 button {
@@ -35,13 +36,17 @@ button {
   width: 10%;
 }
 
-ul button {
+ol button {
   background-color: red;
   color: white;
   width: 20%;
   border: solid;
-  margin-bottom: 1rem;
+  margin-block: 0.7rem;
 }
 .complete {
   text-decoration: line-through;
+
+  text-decoration-thickness: 3px;
+  color: grey;
+  border-color: black;
 }
