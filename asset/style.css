@@ -1,3 +1,39 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-inline: 3rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+form {
+  background-color: aqua;
+  padding: 1rem;
+  margin: 1rem;
+}
+main div {
+  padding: 1rem;
+  background-color: aquamarine;
+  font-size: 1.3rem;
+}
+li {
+  margin-right: 1rem;
+  list-style: none;
+}
+
+button {
+  background-color: orangered;
+  color: white;
+  width: 25%;
+}
+
+ul button {
+  background-color: red;
+  color: white;
+  width: 20%;
+}
 .complete {
   text-decoration: line-through;
 }
